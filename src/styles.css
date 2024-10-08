@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --header-color: #F5F5F5;
+    --text-light-color: #F5F5F5;
+    --text-dark-color: #424242;
+    --orange-color: #ff6600;
+    --body-color: #e6e6e6; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
